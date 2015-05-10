@@ -16,9 +16,9 @@ soundManager.setup({
  url: 'swf/',
  onready: function() {
 
- $("#English").on("click", function(){
+ $("#rev").on("click", function(){
  var mySound = soundManager.createSound({
-id: 'English',
+id: 'rev',
  url: './audiofiles/english.mp3'
  });
  mySound.play();

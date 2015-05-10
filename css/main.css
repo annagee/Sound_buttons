@@ -2,15 +2,35 @@
 body{
   background-color: rgb(140, 85, 0);
   background-image: url("../images/bullitt_background.jpg");
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
+}
+
+/*.content {
+   width: 300px;
+    padding: 25px;
+    border: 25px solid navy;
+    margin: 25px;*/
+  /*margin: 80%*/
+  /*border:100px;200px*/
+  /*float: right;*/
+  /*text-align: center;*/
+  /*display: inline-block;*/
+/*}*/
+
+.page {
+  margin: 90px auto 0;
+  width: 880px;
 }
 
 .content {
-  margin: 80%
-  border:100px;200px
   float: right;
-  text-align: center;
-  display: inline-block;
+}
+
+.main {
+  background: url("../images/frame.png") no-repeat;
+  min-height: 204px;
+  padding: 40px;
+  width: 424px;
 }
 /*
 .greeting {
@@ -18,7 +38,7 @@ body{
     top: 50%;
 }*/
 
-#english { 
+#rev { 
   position: absolute;
     top: 50%;
 }
