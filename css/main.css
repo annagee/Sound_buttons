@@ -1,0 +1,26 @@
+
+body{
+  background-color: red;
+  background-image: url ("http://www.yaneff.com/images/plates/m01.jpg");
+  background-repeat: no-repeat;
+  display: inline-block;
+
+}
+
+.content {
+  margin: 80%
+  border:100px;200px
+  float: right;
+  text-align: center;
+  display: inline-block;
+}
+/*
+.greeting {
+    position: absolute;
+    top: 50%;
+}*/
+
+#english { 
+  position: absolute;
+    top: 50%;
+}
