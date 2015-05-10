@@ -1,7 +1,7 @@
 
 body{
-  background-color: red;
-  background-image: url ("http://www.yaneff.com/images/plates/m01.jpg");
+  background-color: rgb(140, 85, 0);
+  background-image: url("./images/bullitt_background.jpg");
   background-repeat: no-repeat;
   display: inline-block;
 
