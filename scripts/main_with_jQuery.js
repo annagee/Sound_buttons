@@ -1,119 +1,44 @@
-// console.log('help');
+
 
  $('document').ready(function () {
 
 
-//  soundManager.onload = function(){soundManager.createSound({
-//   id: ' ',
-//   url: ' '
-// });
-//   soundManager.play('');
 
 
+soundManager.onload = function() {
+  soundManager.createSound("carRev", "./audiofiles/rev.wav");
+  soundManager.createSound("carStart", "./audiofiles/CarStarting.wav");
+  soundManager.createSound("carBreaking", "./audiofiles/BMW_braking_hard.wav");
+  soundManager.createSound("carCornering", "./audiofiles/Car_cornering_quickly.wav");
+  soundManager.createSound("carOnFire", "./audiofiles/caronfirewav");
+  soundManager.createSound("playSong", "./audiofiles/bullitt_theme_tune.m4a");
+};
 
-
-
- // soundManager.createSound('carStart,'./audiofiles/english.mp3’);
-
-// $(".carSound").on("click", soundManager.createSound('carStart,'./audiofiles/english.mp3’);
-
-
-
-
-// soundManager.setup({
-//  url: 'swf/',
-//  onready: function() {
-//   $("#carRev").on("click", function(){
-//  var mySound = soundManager.createSound({
-// id: 'carRev',
-//  url: './audiofiles/english.mp3'
-//   });
-//   mySound.play();
-// })
-//  },
-//  ontimeout: function() {
-//  } 
-// });
-
-soundManager.setup({
- url: 'swf/',
- onready: function() {
-$("#carStart").on("click", function(){
-var mySound2 = soundManager.createSound({
-id: 'carStart',
- url: './audiofiles/english.mp3'
- });
-mySound2.play();
-})
-  },
- ontimeout: function() {
- }
+$('#button-1').on("click", function(){
+  soundManager.play("carRev");
 });
 
+$('#button-2').on("click", function(){
+  soundManager.play("carStart");
+});
+  $('#button-3').on("click", function(){
+  soundManager.play("carBreaking");
+});
+    $('#button-4').on("click", function(){
+  soundManager.play("carCornering");
+});
+    $('#button-5').on("click", function(){
+  soundManager.play("carOnFire");
+});
+    $('#button-6').on("click", function(){
+  soundManager.play("playSong");
 
 });
-//  },
-//  ontimeout: function() {
-//  }
-// });
-// ar mySound = soundManager.createSound({
-// id: 'carStop',
-//  url: './audiofiles/english.mp3'
-//  });
-// soundManager.play('carStop');
-// var mySound = soundManager.createSound({
-// id: 'carStop',
-//  url: './audiofiles/english.mp3'
-//  });
-// soundManager.play('carStop');
+});
 
+ 
 
-
- // mySound.play();
-// });
-//  },
-//  ontimeout: function() {
-//  }
-//  });
-
-//   $("#carStart").on("click", function(){
-//  var mySound = soundManager.createSound({
-// id: 'carStart',
-//  url: './audiofiles/english.mp3'
-//  });
-//  mySound.play();
-// });
-//  },
-//  ontimeout: function() {
-//  }
-//  });
-
-
-  
-
- // soundManager.createSound('carStart,'./audiofiles/english.mp3’);
-
-
-
-
-// $('English').on('click', soundManager.onload);
 
 
 
   
-// }
-
-
-
-//   $('.greeting').on("click", showGreeting);
-
-// function showGreeting(){
-
-//  // $('.greeting').on("click", function(){
-//   console.log("click"); 
-//  var output = "WDI 13 speaks:"  + $(this).attr('id');
-//   $('p').text(output);
-
-// }
-
-// });

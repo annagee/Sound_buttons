@@ -3,6 +3,8 @@ body{
   background-color: rgb(140, 85, 0);
   background-image: url("../images/bullitt_background.jpg");
   background-repeat: repeat-x;
+  margin: 20px;
+  padding: 50px;
 }
 
 /*.content {
@@ -40,10 +42,15 @@ body{
   width: 424px;
 }
 
+h1 {
+  font-family: 'PT Sans Narrow', sans-serif;
+
+}
+
 .carSound {
-  border-color: black
-  border:solid;
+  
   background-color:  rgb(140, 85, 0);
+  font-family: 'PT Sans Narrow', sans-serif;
 }
 
 
