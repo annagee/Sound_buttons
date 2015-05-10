@@ -15,29 +15,36 @@
 soundManager.setup({
  url: 'swf/',
  onready: function() {
-
- $("#rev").on("click", function(){
+  $("#carRev").on("click", function(){
  var mySound = soundManager.createSound({
-id: 'rev',
+id: 'carRev',
  url: './audiofiles/english.mp3'
  });
  mySound.play();
+});
+ },
+ // ontimeout: function() {
+ // }
+ // });
 
-
-// $("#Chinese").on("click", function(){
- // var mySound = soundManager.createSound({
-  // id: 'Chinese',
- // url: './audiofiles/chinese.mp3'
-// });
- // mySound.play();
-
-
-
-})
+  $("#carStart").on("click", function(){
+ var mySound = soundManager.createSound({
+id: 'carStart',
+ url: './audiofiles/english.mp3'
+ });
+ mySound.play();
+});
  },
  ontimeout: function() {
  }
  });
+
+
+
+
+
+
+
 
 
 // $('English').on('click', soundManager.onload);

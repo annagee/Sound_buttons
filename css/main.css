@@ -27,21 +27,25 @@ body{
 }
 
 .main {
+   background-color: rgb(140, 85, 0);
+   border-color: rgb(140, 85, 0);
   float: middle;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  background: url("../images/frame.png") no-repeat;
-  background-color: grey;
+  display: inline-block;
+  margin: 200px;
+  /*background: url("../images/frame.png") no-repeat;*/*/
+  /*background-color: rgb(140, 85, 0);*/
+  /*background: url("../images/ford_mustang-bullitt.jpg");*/
   min-height: 204px;
-  padding: 40px;
+  padding: 150px;
   width: 424px;
 }
-/*
-.greeting {
-    position: absolute;
+
+
+.carSound {
+    position: relative;
+    display: inline;
     top: 50%;
-}*/
+}
 
 #/*rev { 
   position: absolute;
