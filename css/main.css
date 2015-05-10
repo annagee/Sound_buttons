@@ -27,7 +27,12 @@ body{
 }
 
 .main {
+  float: middle;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   background: url("../images/frame.png") no-repeat;
+  background-color: grey;
   min-height: 204px;
   padding: 40px;
   width: 424px;
@@ -38,7 +43,7 @@ body{
     top: 50%;
 }*/
 
-#rev { 
+#/*rev { 
   position: absolute;
     top: 50%;
-}
+}*/
